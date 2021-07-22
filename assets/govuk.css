@@ -1,0 +1,42 @@
+.govuk-phase-banner {
+ padding-top:10px;
+ padding-bottom:10px;
+ border-bottom:1px solid #b1b4b6
+}
+.govuk-phase-banner__content {
+ font-family:"GDS transport",Arial,sans-serif;
+ -webkit-font-smoothing:antialiased;
+ -moz-osx-font-smoothing:grayscale;
+ font-weight:400;
+ font-size:14px;
+ line-height:1.1428571429;
+ color:#0b0c0c;
+ display:table;
+ margin:0
+}
+.govuk-phase-banner__content__tag {
+ margin-right:10px
+}
+.govuk-phase-banner__text {
+ display:table-cell;
+ vertical-align:baseline
+}
+.gem-c-phase-banner .govuk-phase-banner__content__app-name {
+ display:inline-block;
+ margin-right:10px
+}
+
+.govuk-inset-text {
+    font-family: "GDS Transport",arial,sans-serif;
+    -webkit-font-smoothing: antialiased; */
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: 400;
+    font-size: 1.1875rem;
+    line-height: 1.3157894737;
+    color: #0b0c0c;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+    border-left: 10px solid #bfc1c3
+}
