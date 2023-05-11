@@ -39,3 +39,7 @@ Deploy the app using:
 ```
 cf push
 ```
+
+## New AWS environment
+
+There are [integration](https://github.com/communitiesuk/epb-static-start-pages/tree/aws-integration) and [staging](https://github.com/communitiesuk/epb-static-start-pages/tree/aws-staging) branches that should be used for deploying these start pages to the new AWS infrastructure (as of April 2023).
