@@ -24,22 +24,5 @@ Suggested developer workflow:
 8. Test your changes in staging
 9. Discard your changes of swapping `integration` with `staging`
 
-## Deployment
 
-There is one instance in each pre-production environment:
-- [Integration](https://mhclg-epb-static-start-pages-integration.london.cloudapps.digital)
-- [Staging](https://mhclg-epb-static-start-pages-staging.london.cloudapps.digital)
-
-To deploy to GOV.UK PaaS you will need to be logged in to your CloudFoundry account, and set the correct space as target, e.g.:
-```
-cf target -o mhclg-energy-performance -s integration
-```
-
-Deploy the app using:
-```
-cf push
-```
-
-## New AWS environment
-
-There are [integration](https://github.com/communitiesuk/epb-static-start-pages/tree/aws-integration) and [staging](https://github.com/communitiesuk/epb-static-start-pages/tree/aws-staging) branches that should be used for deploying these start pages to the new AWS infrastructure (as of April 2023).
+There are [integration](https://github.com/communitiesuk/epb-static-start-pages/tree/aws-integration) and [staging](https://github.com/communitiesuk/epb-static-start-pages/tree/aws-staging) branches that should be used for deploying these start pages to the AWS infrastructure 
