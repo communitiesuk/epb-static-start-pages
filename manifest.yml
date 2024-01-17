@@ -1,6 +1,0 @@
----
-applications:
-- name: mhclg-epb-static-start-pages-integration
-  memory: 64M
-  buildpacks:
-  - staticfile_buildpack
