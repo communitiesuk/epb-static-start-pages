@@ -1,6 +1,6 @@
 .govspeak .advisory,
 .gem-c-govspeak .advisory {
-    background-image: url('/assets/frontend/govuk_publishing_components/icon-important-1fcc401a5b79fda41386702053b60cdbc8e486a0c1984f86bfd7e54122cdd1f1.svg');
+    background-image: url('/static-start-pages/assets/frontend/govuk_publishing_components/icon-important-1fcc401a5b79fda41386702053b60cdbc8e486a0c1984f86bfd7e54122cdd1f1.svg');
     background-repeat: no-repeat;
     background-size: 30px 30px;
     background-position: 98% center;
@@ -1213,7 +1213,7 @@
 .gem-c-govspeak .form-download a {
     display: block;
     font-weight: 600;
-    background-image: url('/assets/frontend/govuk_publishing_components/icon-file-download-6725be3349fd9a75d709e7c02e6bac0adecf6535acfef3a2d55a7f75ef5c98a8.svg');
+    background-image: url('/static-start-pages/assets/frontend/govuk_publishing_components/icon-file-download-6725be3349fd9a75d709e7c02e6bac0adecf6535acfef3a2d55a7f75ef5c98a8.svg');
     background-repeat: no-repeat;
     background-size: 40px 40px;
     min-height: 2.5em;
@@ -2439,7 +2439,7 @@
 .govspeak .help-notice,
 .gem-c-govspeak .help-notice {
     margin: 2em 0;
-    background-image: url('/assets/frontend/govuk_publishing_components/icon-important-1fcc401a5b79fda41386702053b60cdbc8e486a0c1984f86bfd7e54122cdd1f1.svg');
+    background-image: url('/static-start-pages/assets/frontend/govuk_publishing_components/icon-important-1fcc401a5b79fda41386702053b60cdbc8e486a0c1984f86bfd7e54122cdd1f1.svg');
     background-size: 35px 35px;
     background-repeat: no-repeat;
     min-height: 35px;
