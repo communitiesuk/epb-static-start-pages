@@ -6323,22 +6323,24 @@ only screen and(min-resolution: 2dppx) {
     }
 }
 .govuk-tag {
-    display: inline-block;
-    outline: 2px solid transparent;
-    outline-offset: -2px;
-    color: #fff;
-    background-color: #1d70b8;
-    letter-spacing: 1px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: "GDS Transport", arial, sans-serif;
+    font-family: "GDS Transport",arial,sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-weight: 700;
-    font-size: 14px;
-    font-size: 0.875rem;
-    line-height: 1;
-    padding: 5px 8px 4px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25;
+    display: inline-block;
+    max-width: 160px;
+    margin-top: -2px;
+    margin-bottom: -3px;
+    padding-top: 2px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    color: #0c2d4a;
+    background-color: #bbd4ea;
+    text-decoration: none;
+    overflow-wrap: break-word
 }
 @media print {
     .govuk-tag {
@@ -8333,31 +8335,37 @@ only screen and(min-resolution: 2dppx) {
 .govuk-phase-banner {
     padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #b1b4b6;
+    border-bottom: 1px solid #b1b4b6
 }
 .govuk-phase-banner__content {
     font-family: "GDS Transport",arial,sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-weight: 400;
-    font-size: 14px;
     font-size: .875rem;
     line-height: 1.1428571429;
     color: #0b0c0c;
     display: table;
-    margin: 0;
+    margin: 0
 }
 @media(min-width: 40.0625em) {
     .govuk-phase-banner__content {
-        font-size: 16px;
-        font-size: 1rem;
-        line-height: 1.25;
+        font-size:1rem;
+        line-height: 1.25
     }
 }
 .govuk-phase-banner__text {
     display: table-cell;
-    vertical-align: middle;
+    vertical-align: middle
 }
 .govuk-phase-banner__content__tag {
-	margin-right: 10px;
+    font-size: .875rem;
+    line-height: 1.1428571429;
+    margin-right: 10px
+}
+
+.epbr-environment-tag {
+    color: #000;
+    background-color: #8ACE00;
+    font-weight: 700;
 }
